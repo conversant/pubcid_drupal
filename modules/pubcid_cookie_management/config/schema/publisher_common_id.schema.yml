@@ -1,0 +1,19 @@
+publisher_common_id:
+  type: config_object
+  label: 'publisher_common_id settings'
+  mapping:
+    cookie_name:
+      type: string
+      label: 'cookie_name'
+    max_age:
+      type: integer
+      label: 'max_age'
+    cookie_domain:
+      type: string
+      label: 'cookie_domain'
+    consent_function:
+      type: string
+      label: 'consent_function'
+    generate_function:
+      type: string
+      label: 'generate_function'
